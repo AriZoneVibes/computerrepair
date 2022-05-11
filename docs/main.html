@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>ARIZONE Reparaciones</title>
+
+	<link href="output.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+
+	<!-- Primary Meta Tags -->
+	<meta name="title" content="ARIZONE Reparaciones">
+	<meta name="description" content="Reparación, mantenimiento y mejoras de hardware y software
+								para equipos de escritorio, laptops y All In Ones.">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://pc.ari-zone.com">
+	<meta property="og:title" content="ARIZONE Reparaciones">
+	<meta property="og:description" content="Reparación, mantenimiento y mejoras de hardware y software
+								para equipos de escritorio, laptops y All In Ones.">
+	<meta property="og:image" content="./img/meta.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://pc.ari-zone.com">
+	<meta property="twitter:title" content="Meta Tags — Preview, Edit and Generate">
+	<meta property="twitter:description" content="Reparación, mantenimiento y mejoras de hardware y software
+								para equipos de escritorio, laptops y All In Ones.">
+	<meta property="twitter:image" content="./img/meta.png">
+
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+	</style>
+</head>
+
+<body class="font-monts bg-gray-800 text-white">
+	<section class="mb-4">
+		<!-- #region Hero -->
+		<div class="relative overflow-hidden" id="hero">
+			<div class="max-w-7xl mx-auto">
+				<div class="relative z-10 pb-8 bg-gray-800 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+					<svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-gray-800 transform translate-x-1/2"
+						fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+						<polygon points="50,0 100,0 50,100 0,100" />
+					</svg>
+
+					<div>
+						<div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+							<nav class="relative flex items-center justify-between sm:h-10 lg:justify-start"
+								aria-label="Global">
+								<div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+									<div class="flex items-center justify-between w-full md:w-auto">
+										<a href="#hero">
+											<span class="sr-only">Home</span>
+											<img class="h-8 w-auto sm:h-10" src="./img/banner.png" />
+										</a>
+										<div class="mr-2 flex items-center md:hidden">
+											<button type="button" onclick="hideMenu()"
+												class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-500">
+												<span class="sr-only">Open main menu</span>
+												<!-- Heroicon name: outline/menu -->
+												<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+													viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+													aria-hidden="true">
+													<path stroke-linecap="round" stroke-linejoin="round"
+														d="M4 6h16M4 12h16M4 18h16" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</div>
+								<div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+									<a href="#servicios"
+										class="font-medium text-gray-100 hover:text-pink-500">Servicios</a>
+
+									<a href="#paquetes"
+										class="font-medium text-gray-100 hover:text-pink-500">Paquetes</a>
+								</div>
+							</nav>
+						</div>
+
+						<div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+							id="menu">
+							<div
+								class="rounded-lg shadow-md bg-gray-700 ring-1 ring-black ring-opacity-5 overflow-hidden">
+								<div class="px-2 pt-4 flex items-center justify-between">
+									<div>
+										<img class="h-8 w-auto" src="./img/banner.png" alt="" />
+									</div>
+									<div class="mr-2">
+										<button type="button" onclick="hideMenu()"
+											class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-500">
+											<span class="sr-only">Close main menu</span>
+											<!-- Heroicon name: outline/x -->
+											<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+												viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+												aria-hidden="true">
+												<path stroke-linecap="round" stroke-linejoin="round"
+													d="M6 18L18 6M6 6l12 12" />
+											</svg>
+										</button>
+									</div>
+								</div>
+								<div class="px-2 pt-2 pb-3 space-y-1">
+									<a href="#servicios"
+										class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:bg-pink-500">Servicios</a>
+									<a href="#paquetes"
+										class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:bg-pink-500">Paquetes</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+						<div class="sm:text-center lg:text-left">
+							<h1 class="text-4xl tracking-tight font-extrabold text-gray-100 sm:text-5xl md:text-6xl">
+								<span class="block text-pink-600 xl:inline">Servicio técnico</span>
+								<span class="block xl:inline">a computadoras</span>
+							</h1>
+							<p
+								class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+								Reparación, mantenimiento y mejoras de hardware y software
+								para equipos de escritorio, laptops y All In Ones.
+							</p>
+							<p class="text-gray-500 py-3 text-lg">
+								Favor de tomar un momento para leer mis<a class="underline hover:text-pink-600" href="">
+									Términos de Servicio</a>
+							</p>
+							<div>
+								<ul
+									class="list-none flex flex-row items-center my-3 sm:justify-center md:my-6 lg:justify-start lg:mx-2 lg:my-4">
+
+									<li class="w-8 mx-3 ml-0 lg:ml-0"><a href="mailto:ari@ari-zone.com"
+											class="fill-pink-600 hover:fill-pink-800 transition">
+											<!-- #region Mail-->
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+												<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+												<path
+													d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z" />
+											</svg>
+											<!-- endregion -->
+										</a>
+									</li>
+									<li class="w-8 mx-3"><a href="https://t.me/AriZoneVibes"
+											class="fill-pink-600 hover:fill-pink-800 transition">
+											<!-- #region Telegram-->
+											<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+												<title>Telegram</title>
+												<path
+													d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+											</svg>
+											<!-- endregion -->
+										</a>
+									</li>
+									<li class="w-8 mx-3"><a href="https://github.com/AriZoneVibes"
+											class="fill-pink-600 hover:fill-pink-800 transition">
+											<!-- #region Git -->
+											<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+												<title>GitHub</title>
+												<path
+													d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+											</svg>
+											<!-- endregion -->
+										</a>
+									</li>
+									<li class="w-8 mx-3"><a href="https://wa.me/528112399897"
+											class="fill-pink-600 hover:fill-pink-800 transition">
+											<!-- #region Whats-->
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+												<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+												<path
+													d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+											</svg>
+											<!-- endregion -->
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+								<div class="rounded-md shadow">
+									<a href="#servicios"
+										class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 md:py-4 md:text-lg md:px-10">
+										Servicios
+									</a>
+								</div>
+								<div class="mt-3 sm:mt-0 sm:ml-3">
+									<a href="#paquetes"
+										class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-pink-700 bg-gray-100 hover:bg-gray-300 md:py-4 md:text-lg md:px-10">
+										Paquetes
+									</a>
+								</div>
+							</div>
+						</div>
+					</main>
+				</div>
+			</div>
+			<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+				<img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="./img/main.jpg" alt="" />
+			</div>
+		</div>
+		<!-- endregion -->
+	</section>
+	<!-- #region servicios  -->
+	<section class="container py-5 px-3" id="servicios">
+		<h1 class="text-4xl mb-4">Servicios</h1>
+		<div class="flex flex-col xl:flex-row xl:flex-wrap xl:px-6 xl:justify-center xl:space-x-8">
+			<!-- #region Card 1 -->
+			<div class="my-3 xl:mb-12 xl:w-1/4 flex">
+				<div class="bg-gray-700 text-lg mx-auto p-4 w-full rounded-md">
+					<h2 class="uppercase font-bold text-pink-600 text-2xl tracking-wide">Consulta General
+						<br>
+						<span class="font-normal my-4 text-white">$300</span>
+					</h2>
+					<p class="py-2">
+						Se realizan analisis para ideantificar la causa del problema. <br> Este
+						costo sera incluido en la cotización final si decide continuar con la reparación.</p>
+				</div>
+			</div>
+			<!-- endregion -->
+			<!-- #region Card 2 -->
+			<div class="my-3 xl:mb-12 xl:w-1/4 flex">
+				<div class="bg-gray-700 text-lg mx-auto p-4 w-full rounded-md">
+					<h2 class="uppercase font-bold text-pink-600 text-2xl tracking-wide">Limpieza hardware
+						<br>
+						<span class="font-normal my-4 text-white">$200</span>
+					</h2>
+					<p class="py-2">
+						Se remueve todo polvo, tierra y oxido que se haya acumulado dentro del
+						dispositivo
+						con materiales seguros para electronicos.</p>
+				</div>
+			</div>
+			<!-- endregion -->
+			<!-- #region Card 3 -->
+			<div class="my-3 xl:mb-12 xl:w-1/4 flex">
+				<div class="bg-gray-700 text-lg mx-auto p-4 w-full rounded-md">
+					<h2 class="uppercase font-bold text-pink-600 text-2xl tracking-wide">Formateo
+						<br>
+						<span class="font-normal my-4 text-white">$500</span>
+					</h2>
+					<p class="py-2">
+						Se borran todos los contenidos del disco duro y se instala el sistema operativo de
+						regreso.
+					</p>
+				</div>
+			</div>
+			<!-- endregion -->
+		</div>
+	</section>
+	<!-- endregion -->
+	<!-- #region Paquetes -->
+	<section class="container py-5 px-3" id="paquetes">
+		<h1 class="text-4xl mb-4">Paquetes de Mejoras</h1>
+		<div class="flex flex-col xl:flex-row xl:space-x-4 xl:justify-around">
+			<!-- #region Laptops -->
+			<div class="">
+				<h2 class="text-2xl pt-4 pb-1">Laptops</h2>
+				<div class="border-t border-pink-600 pb-4"></div>
+				<div class="flex flex-fow flex-wrap justify-around xl:grid xl:grid-cols-2 xl:gap-4">
+					<!-- #region Prices Card 1 -->
+					<div class="bg-gray-700 p-4 rounded-md w-56 my-4 xl:my-0">
+						<div class="">
+							<div class="fill-pink-600 w-10">
+								<!-- #region Ram Icon  -->
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 576">
+									<!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+									<path
+										d="M640 130.94V96c0-17.67-14.33-32-32-32H32C14.33 64 0 78.33 0 96v34.94c18.6 6.61 32 24.19 32 45.06s-13.4 38.45-32 45.06V320h640v-98.94c-18.6-6.61-32-24.19-32-45.06s13.4-38.45 32-45.06zM224 256h-64V128h64v128zm128 0h-64V128h64v128zm128 0h-64V128h64v128zM0 448h64v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h64v-96H0v96z" />
+								</svg>
+								<!-- endregion -->
+							</div>
+							<p class="uppercase text-2xl text-gray-300">Ram</p>
+						</div>
+						<ul class="text-xl">
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">4 GB</span>
+								<p>$900</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">8 GB</span>
+								<p>$1,400</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">16 GB</span>
+								<p>$2,500</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">32 GB</span>
+								<p>$3,500</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">64 GB</span>
+								<p>$8,500</p>
+							</li>
+						</ul>
+					</div>
+					<!-- endregion -->
+					<!-- #region Prices Card 2 -->
+					<div class="bg-gray-700 p-4 rounded-md w-56 my-4 xl:my-0">
+						<div class="fill-pink-600 w-10">
+							<!-- #region HHD Icon  -->
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 576">
+								<!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+								<path
+									d="M576 304v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48zm-48-80a79.557 79.557 0 0 1 30.777 6.165L462.25 85.374A48.003 48.003 0 0 0 422.311 64H153.689a48 48 0 0 0-39.938 21.374L17.223 230.165A79.557 79.557 0 0 1 48 224h480zm-48 96c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32zm-96 0c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32z" />
+							</svg>
+							<!-- endregion -->
+						</div>
+						<p class="uppercase text-2xl text-gray-300">Disco Duro</p>
+						<ul class="text-xl">
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">500 GB</span>
+								<p>$1,500</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">1 TB</span>
+								<p>$1,200</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">2 TB</span>
+								<p>$1,700</p>
+							</li>
+						</ul>
+					</div>
+					<!-- endregion -->
+					<!-- #region Prices Card 3 -->
+					<div class="bg-gray-700 p-4 rounded-md w-56 my-4 xl:my-0">
+						<div class="fill-pink-600 w-10">
+							<!-- #region SSD Icon  -->
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+								<path
+									d="M234.5 5.709C248.4 .7377 263.6 .7377 277.5 5.709L469.5 74.28C494.1 83.38 512 107.5 512 134.6V377.4C512 404.5 494.1 428.6 469.5 437.7L277.5 506.3C263.6 511.3 248.4 511.3 234.5 506.3L42.47 437.7C17 428.6 0 404.5 0 377.4V134.6C0 107.5 17 83.38 42.47 74.28L234.5 5.709zM256 65.98L82.34 128L256 190L429.7 128L256 65.98zM288 434.6L448 377.4V189.4L288 246.6V434.6z" />
+							</svg>
+							<!-- endregion -->
+						</div>
+						<p class="uppercase text-2xl text-gray-300">SSD</p>
+						<ul class="text-xl">
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">240 GB</span>
+								<p>$1,100</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">480 GB</span>
+								<p>$1,500</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">960 GB</span>
+								<p>$2,600</p>
+							</li>
+						</ul>
+					</div>
+					<!-- endregion -->
+					<!-- #region Prices Card 4 -->
+					<div class="bg-gray-700 p-4 rounded-md w-56 my-4 xl:my-0">
+						<div class="fill-pink-600 w-10">
+							<!-- #region SSD Icon  -->
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+								<path
+									d="M160 352h192V160H160V352zM448 176h48C504.8 176 512 168.8 512 160s-7.162-16-16-16H448V128c0-35.35-28.65-64-64-64h-16V16C368 7.164 360.8 0 352 0c-8.836 0-16 7.164-16 16V64h-64V16C272 7.164 264.8 0 256 0C247.2 0 240 7.164 240 16V64h-64V16C176 7.164 168.8 0 160 0C151.2 0 144 7.164 144 16V64H128C92.65 64 64 92.65 64 128v16H16C7.164 144 0 151.2 0 160s7.164 16 16 16H64v64H16C7.164 240 0 247.2 0 256s7.164 16 16 16H64v64H16C7.164 336 0 343.2 0 352s7.164 16 16 16H64V384c0 35.35 28.65 64 64 64h16v48C144 504.8 151.2 512 160 512c8.838 0 16-7.164 16-16V448h64v48c0 8.836 7.164 16 16 16c8.838 0 16-7.164 16-16V448h64v48c0 8.836 7.164 16 16 16c8.838 0 16-7.164 16-16V448H384c35.35 0 64-28.65 64-64v-16h48c8.838 0 16-7.164 16-16s-7.162-16-16-16H448v-64h48C504.8 272 512 264.8 512 256s-7.162-16-16-16H448V176zM384 368c0 8.836-7.162 16-16 16h-224C135.2 384 128 376.8 128 368v-224C128 135.2 135.2 128 144 128h224C376.8 128 384 135.2 384 144V368z" />
+							</svg>
+							<!-- endregion -->
+						</div>
+						<p class="uppercase text-2xl text-gray-300">NVME</p>
+						<ul class="text-xl">
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">250 GB</span>
+								<p>$1,100</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">500 GB</span>
+								<p>$1,700</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">1 TB</span>
+								<p>$2,700</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">2 TB</span>
+								<p>$4,500</p>
+							</li>
+						</ul>
+					</div>
+					<!-- endregion -->
+				</div>
+			</div>
+			<!-- endregion -->
+			<!-- #region Desktop -->
+			<div>
+				<h2 class="text-2xl pt-4 pb-1">Escritorios y All in Ones</h2>
+				<div class="border-t border-pink-600 pb-4"></div>
+				<div class="flex flex-fow flex-wrap justify-around xl:grid xl:grid-cols-2 xl:gap-4">
+					<!-- #region Prices Card 1 -->
+					<div class="bg-gray-700 p-4 rounded-md w-56 my-4 xl:my-0">
+						<div class="">
+							<div class="fill-pink-600 w-10">
+								<!-- #region Ram Icon  -->
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 576">
+									<!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+									<path
+										d="M640 130.94V96c0-17.67-14.33-32-32-32H32C14.33 64 0 78.33 0 96v34.94c18.6 6.61 32 24.19 32 45.06s-13.4 38.45-32 45.06V320h640v-98.94c-18.6-6.61-32-24.19-32-45.06s13.4-38.45 32-45.06zM224 256h-64V128h64v128zm128 0h-64V128h64v128zm128 0h-64V128h64v128zM0 448h64v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h64v-96H0v96z" />
+								</svg>
+								<!-- endregion -->
+							</div>
+							<p class="uppercase text-2xl text-gray-300">Ram</p>
+						</div>
+						<ul class="text-xl">
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">4 GB</span>
+								<p>$1000</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">8 GB</span>
+								<p>$1,500</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">16 GB</span>
+								<p>$2,500</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">32 GB</span>
+								<p>$4,700</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">64 GB</span>
+								<p>$8,000</p>
+							</li>
+						</ul>
+					</div>
+					<!-- endregion -->
+					<!-- #region Prices Card 2 -->
+					<div class="bg-gray-700 p-4 rounded-md w-56 my-4 xl:my-0">
+						<div class="fill-pink-600 w-10">
+							<!-- #region HHD Icon  -->
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 576">
+								<!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+								<path
+									d="M576 304v96c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48v-96c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48zm-48-80a79.557 79.557 0 0 1 30.777 6.165L462.25 85.374A48.003 48.003 0 0 0 422.311 64H153.689a48 48 0 0 0-39.938 21.374L17.223 230.165A79.557 79.557 0 0 1 48 224h480zm-48 96c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32zm-96 0c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32z" />
+							</svg>
+							<!-- endregion -->
+						</div>
+						<p class="uppercase text-2xl text-gray-300">Disco Duro</p>
+						<ul class="text-xl">
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">500 GB</span>
+								<p>$1,000</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">1 TB</span>
+								<p>$1,500</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">2 TB</span>
+								<p>$2,000</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">3 TB</span>
+								<p>$3,000</p>
+							</li>
+						</ul>
+					</div>
+					<!-- endregion -->
+					<!-- #region Prices Card 3 -->
+					<div class="bg-gray-700 p-4 rounded-md w-56 my-4 xl:my-0">
+						<div class="fill-pink-600 w-10">
+							<!-- #region SSD Icon  -->
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+								<path
+									d="M234.5 5.709C248.4 .7377 263.6 .7377 277.5 5.709L469.5 74.28C494.1 83.38 512 107.5 512 134.6V377.4C512 404.5 494.1 428.6 469.5 437.7L277.5 506.3C263.6 511.3 248.4 511.3 234.5 506.3L42.47 437.7C17 428.6 0 404.5 0 377.4V134.6C0 107.5 17 83.38 42.47 74.28L234.5 5.709zM256 65.98L82.34 128L256 190L429.7 128L256 65.98zM288 434.6L448 377.4V189.4L288 246.6V434.6z" />
+							</svg>
+							<!-- endregion -->
+						</div>
+						<p class="uppercase text-2xl text-gray-300">SSD</p>
+						<ul class="text-xl">
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">240 GB</span>
+								<p>$1,100</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">480 GB</span>
+								<p>$1,500</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">960 GB</span>
+								<p>$2,600</p>
+							</li>
+						</ul>
+					</div>
+					<!-- endregion -->
+					<!-- #region Prices Card 4 -->
+					<div class="bg-gray-700 p-4 rounded-md w-56 my-4 xl:my-0">
+						<div class="fill-pink-600 w-10">
+							<!-- #region SSD Icon  -->
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+								<path
+									d="M160 352h192V160H160V352zM448 176h48C504.8 176 512 168.8 512 160s-7.162-16-16-16H448V128c0-35.35-28.65-64-64-64h-16V16C368 7.164 360.8 0 352 0c-8.836 0-16 7.164-16 16V64h-64V16C272 7.164 264.8 0 256 0C247.2 0 240 7.164 240 16V64h-64V16C176 7.164 168.8 0 160 0C151.2 0 144 7.164 144 16V64H128C92.65 64 64 92.65 64 128v16H16C7.164 144 0 151.2 0 160s7.164 16 16 16H64v64H16C7.164 240 0 247.2 0 256s7.164 16 16 16H64v64H16C7.164 336 0 343.2 0 352s7.164 16 16 16H64V384c0 35.35 28.65 64 64 64h16v48C144 504.8 151.2 512 160 512c8.838 0 16-7.164 16-16V448h64v48c0 8.836 7.164 16 16 16c8.838 0 16-7.164 16-16V448h64v48c0 8.836 7.164 16 16 16c8.838 0 16-7.164 16-16V448H384c35.35 0 64-28.65 64-64v-16h48c8.838 0 16-7.164 16-16s-7.162-16-16-16H448v-64h48C504.8 272 512 264.8 512 256s-7.162-16-16-16H448V176zM384 368c0 8.836-7.162 16-16 16h-224C135.2 384 128 376.8 128 368v-224C128 135.2 135.2 128 144 128h224C376.8 128 384 135.2 384 144V368z" />
+							</svg>
+							<!-- endregion -->
+						</div>
+						<p class="uppercase text-2xl text-gray-300">NVME</p>
+						<ul class="text-xl">
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">250 GB</span>
+								<p>$1,100</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">500 GB</span>
+								<p>$1,700</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">1 TB</span>
+								<p>$2,700</p>
+							</li>
+							<li class="py-1 grid grid-cols-2">
+								<span class="text-pink-600 font-semibold mr-4">2 TB</span>
+								<p>$4,500</p>
+							</li>
+						</ul>
+					</div>
+					<!-- endregion -->
+				</div>
+				<!-- endregion -->
+			</div>
+		</div>
+	</section>
+	<!-- endregion -->
+	<footer>
+		<p class="text-gray-300 text-center p-4">
+			Precios de referencia (pueden variar dependiendo de las piezas necesarias o complejidad del trabajo) incluye
+			consulta, instalación y costo de piezas.</p>
+		<div class="bg-pink-600 w-full py-3 mt-10">
+			<img src="img/banner.png" alt="Arizone Logo" class="mx-auto w-80 mb-4">
+			<div class="flex flex-row p-3 mx-2 text-xl content-around w-full">
+				<ul class="m-auto">
+					<li><a href="mailto:ari@ari-zone.com">Correo</a></li>
+					<li><a href="https://www.twitch.tv/arizonevibes">Twitch</a></li>
+					<li><a href="https://t.me/AriZoneVibes">Telegram</a></li>
+					<li><a href="https://github.com/AriZoneVibes">Github</a></li>
+					<li><a href="https://wa.me/528112399897">WhatsApp</a></li>
+				</ul>
+				<hr>
+				<ul class="text-right m-auto">
+					<li><a href="#servicios">Servicios</a></li>
+					<li><a href="#paquetes">Paquetes</a></li>
+				</ul>
+			</div>
+			<p class="text-center italic text-lg m-2">AriZone 2022</p>
+		</div>
+	</footer>
+	<!-- #region Scripts -->
+	<!-- Close Banner  -->
+	<script defer>
+		var y = document.getElementById('menu');
+		y.style.display = 'none';
+
+		function hideMenu() {
+			var x = document.getElementById('menu');
+			if (x.style.display === 'none') {
+				x.style.display = 'block';
+			} else {
+				x.style.display = 'none';
+			}
+		}
+	</script>
+	<!-- endregion -->
+</body>
+
+</html>
